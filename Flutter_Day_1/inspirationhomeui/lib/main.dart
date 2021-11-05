@@ -8,7 +8,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Sans'),
+      theme: ThemeData(fontFamily: 'Roboto'),
       home: HomePage(),
     ),
   );
@@ -227,18 +227,23 @@ Widget promoCard(image) {
       margin: EdgeInsets.only(right: 15),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        image: DecorationImage(fit: BoxFit.cover, image: AssetImage(image)),
+        image: DecorationImage(
+          fit: BoxFit.cover,
+          image: AssetImage(image),
+        ),
       ),
       child: Container(
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-            gradient: LinearGradient(begin: Alignment.bottomRight, stops: [
-              0.1,
-              0.9
-            ], colors: [
+          borderRadius: BorderRadius.circular(20),
+          gradient: LinearGradient(
+            begin: Alignment.bottomRight,
+            stops: [0.1, 0.9],
+            colors: [
               Colors.black.withOpacity(.8),
               Colors.black.withOpacity(.1)
-            ])),
+            ],
+          ),
+        ),
       ),
     ),
   );
