@@ -129,10 +129,10 @@ class _HomePageState extends State<HomePage> {
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: [
-                          promoCard('assets/images/one.jpg'),
-                          promoCard('assets/images/two.jpg'),
-                          promoCard('assets/images/five.jpg'),
-                          promoCard('assets/images/four.jpg')
+                          itemCard('assets/images/one.jpg'),
+                          itemCard('assets/images/two.jpg'),
+                          itemCard('assets/images/five.jpg'),
+                          itemCard('assets/images/four.jpg')
                         ],
                       ),
                     )
@@ -220,7 +220,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-Widget promoCard(image) {
+Widget itemCard(image) {
   return AspectRatio(
     aspectRatio: 2.62 / 3,
     child: Container(
