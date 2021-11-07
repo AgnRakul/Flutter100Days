@@ -39,110 +39,121 @@ class _HomeState extends State<Home> {
         ],
       ),
       body: SafeArea(
-          child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                FadeAnimation(
-                  1,
-                  Text(
-                    'Food Court \nWelcomes You',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 30),
-                  ),
-                ),
-                SizedBox(height: 50),
-                SizedBox(
-                  height: 50,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: [
-                      FadeAnimation(
-                          1, category(isActive: true, title: 'BreakFast')),
-                      FadeAnimation(
-                          1.3, category(isActive: true, title: 'Lunch')),
-                      FadeAnimation(
-                          1.4, category(isActive: false, title: 'Dinner')),
-                      FadeAnimation(
-                          1.5, category(isActive: false, title: 'Salad')),
-                      FadeAnimation(
-                          1.6, category(isActive: false, title: 'Noodles')),
-                    ],
-                  ),
-                ),
-                SizedBox(height: 10),
-              ],
-            ),
-          ),
-          FadeAnimation(
-            1,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
             Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                "Free Delivery",
-                style: TextStyle(
-                    color: Colors.grey[700],
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
-              ),
-            ),
-          ),
-          Expanded(
-            child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
-              child: ListView(
-                scrollDirection: Axis.horizontal,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   FadeAnimation(
-                    1.4,
-                    item(
-                        image: 'assets/images/Briyani.jpg',
-                        foodtitle: "Briyani",
-                        rate: "40.00"),
+                    1,
+                    Text(
+                      'Food Court \nWelcomes You',
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 30),
+                    ),
                   ),
-                  FadeAnimation(
-                    1.5,
-                    item(
-                        image: 'assets/images/Chapathi.jpg',
-                        foodtitle: "Chapathi",
-                        rate: "10.00"),
+                  SizedBox(height: 50),
+                  SizedBox(
+                    height: 50,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        FadeAnimation(
+                          1,
+                          category(isActive: true, title: 'BreakFast'),
+                        ),
+                        FadeAnimation(
+                          1.3,
+                          category(isActive: true, title: 'Lunch'),
+                        ),
+                        FadeAnimation(
+                          1.4,
+                          category(isActive: false, title: 'Dinner'),
+                        ),
+                        FadeAnimation(
+                          1.5,
+                          category(isActive: false, title: 'Salad'),
+                        ),
+                        FadeAnimation(
+                          1.6,
+                          category(isActive: false, title: 'Noodles'),
+                        ),
+                      ],
+                    ),
                   ),
-                  FadeAnimation(
-                    1.6,
-                    item(
-                        image: 'assets/images/Noodles.jpg',
-                        foodtitle: "Noodles",
-                        rate: "25.00"),
-                  ),
-                  FadeAnimation(
-                    1.4,
-                    item(
-                        image: 'assets/images/EggOmlete.jpg',
-                        foodtitle: "Egg Omlete",
-                        rate: "15.00"),
-                  ),
-                  FadeAnimation(
-                    1.5,
-                    item(
-                        image: 'assets/images/ChickenRice.jpg',
-                        foodtitle: "Chicken Rice",
-                        rate: "15.00"),
-                  ),
+                  SizedBox(height: 10),
                 ],
               ),
             ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
-        ],
-      )),
+            FadeAnimation(
+              1,
+              Padding(
+                padding: EdgeInsets.all(20),
+                child: Text(
+                  "Free Delivery",
+                  style: TextStyle(
+                      color: Colors.grey[700],
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    FadeAnimation(
+                      1.4,
+                      item(
+                          image: 'assets/images/Briyani.jpg',
+                          foodtitle: "Briyani",
+                          rate: "40.00"),
+                    ),
+                    FadeAnimation(
+                      1.5,
+                      item(
+                          image: 'assets/images/Chapathi.jpg',
+                          foodtitle: "Chapathi",
+                          rate: "10.00"),
+                    ),
+                    FadeAnimation(
+                      1.6,
+                      item(
+                          image: 'assets/images/Noodles.jpg',
+                          foodtitle: "Noodles",
+                          rate: "25.00"),
+                    ),
+                    FadeAnimation(
+                      1.4,
+                      item(
+                          image: 'assets/images/EggOmlete.jpg',
+                          foodtitle: "Egg Omlete",
+                          rate: "15.00"),
+                    ),
+                    FadeAnimation(
+                      1.5,
+                      item(
+                          image: 'assets/images/ChickenRice.jpg',
+                          foodtitle: "Chicken Rice",
+                          rate: "15.00"),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+          ],
+        ),
+      ),
     );
   }
 
@@ -175,9 +186,9 @@ class _HomeState extends State<Home> {
         child: Container(
           margin: EdgeInsets.only(right: 20),
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              image:
-                  DecorationImage(image: AssetImage(image), fit: BoxFit.cover)),
+            borderRadius: BorderRadius.circular(20),
+            image: DecorationImage(image: AssetImage(image), fit: BoxFit.cover),
+          ),
           child: Container(
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
@@ -213,11 +224,13 @@ class _HomeState extends State<Home> {
                       SizedBox(
                         height: 10,
                       ),
-                      Text(foodtitle,
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 25,
-                              fontWeight: FontWeight.bold))
+                      Text(
+                        foodtitle,
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ],
                   )
                 ],
