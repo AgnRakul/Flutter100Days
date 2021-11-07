@@ -1,4 +1,4 @@
-# fooddeli
+# Food Court UI
 
 A new Flutter project.
 
