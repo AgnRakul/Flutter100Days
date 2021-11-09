@@ -1,0 +1,3 @@
+[submodule "Flutter_Day_5/moviesdata/inject.dart"]
+	path = Flutter_Day_5/moviesdata/inject.dart
+	url = https://github.com/google/inject.dart
