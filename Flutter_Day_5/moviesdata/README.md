@@ -3,12 +3,7 @@
 A Movies Database Project Used TMMD API for Fetching Movies Data from the Internet. Used Bloc Pattern With Help of SagarSuri Article in Medium
 The UI Desgin Done Below👇
 # Preview 
-
-<video width="320" height="240" controls>
-  <source src="https://user-images.githubusercontent.com/70213104/141113082-c1996cd1-2dde-4a17-a573-1aec967c8c6b.mp4" type="video/mp4">
-  <source src="https://user-images.githubusercontent.com/70213104/141113082-c1996cd1-2dde-4a17-a573-1aec967c8c6b.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/70213104/141113082-c1996cd1-2dde-4a17-a573-1aec967c8c6b.mp4
 
 
 
