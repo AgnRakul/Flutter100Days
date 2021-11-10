@@ -9,3 +9,5 @@
    <b> Day 4 - <a href="https://github.com/RakulAgn/Flutter100Days/tree/main/Flutter_Day_4/moviesprofile">Movies Profile UI</a> </b>
 
    <b> Day 5 - <a href="https://github.com/RakulAgn/Flutter100Days/tree/main/Flutter_Day_5/moviesdata">Movies Database with Bloc Pattern</a> </b>
+
+   <b> Day 6 - <a href="https://github.com/RakulAgn/Flutter100Days/tree/main/Flutter_Day_6/MyFluuter-MusicLyrics">Music Lyrics with Bloc Pattern</a> </b>
