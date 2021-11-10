@@ -1,6 +1,9 @@
-# travelappui
+# Travel App UI
 
-A new Flutter project.
+Travel App UI
+
+# Preview
+https://user-images.githubusercontent.com/70213104/141114164-a827be3e-9c6b-48fd-bb2d-b5217eb11cd9.mp4
 
 ## Getting Started
 
