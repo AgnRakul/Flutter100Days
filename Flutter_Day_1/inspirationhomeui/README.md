@@ -1,6 +1,9 @@
-# inspirationhomeui
+# Inspirational Quotes UI
 
-A new Flutter project.
+Quotes UI
+
+# Preview
+https://user-images.githubusercontent.com/70213104/141114354-38229dde-c4bd-4d0a-8759-45c0f4057a6f.mp4
 
 ## Getting Started
 
