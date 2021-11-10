@@ -1,6 +1,9 @@
-# moviesprofile
+# Movies Profile
 
-A new Flutter project.
+A Movies Profile UI DESING
+
+# Preview
+https://user-images.githubusercontent.com/70213104/141113901-653691cc-4be5-4195-976b-c2b7bbff318c.mp4
 
 ## Getting Started
 
