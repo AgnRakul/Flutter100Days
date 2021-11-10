@@ -1,6 +1,10 @@
-# moviesdata
+# Movies Database
 
-A new Flutter project.
+A Movies Database Project Used TMMD API for Fetching Movies Data from the Internet. Used Bloc Pattern With Help of SagarSuri Article in Medium
+The UI Desgin Done Below👇
+# Preview 
+https://user-images.githubusercontent.com/70213104/141113082-c1996cd1-2dde-4a17-a573-1aec967c8c6b.mp4
+
 
 ## Getting Started
 
