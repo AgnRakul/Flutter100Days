@@ -4,7 +4,11 @@ A Movies Database Project Used TMMD API for Fetching Movies Data from the Intern
 The UI Desgin Done Below👇
 # Preview 
 
-<iframe src="https://user-images.githubusercontent.com/70213104/141113082-c1996cd1-2dde-4a17-a573-1aec967c8c6b.mp4" title="Movies Database"></iframe>
+<video width="320" height="240" controls>
+  <source src="https://user-images.githubusercontent.com/70213104/141113082-c1996cd1-2dde-4a17-a573-1aec967c8c6b.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 
 ## Getting Started
