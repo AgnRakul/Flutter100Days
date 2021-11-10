@@ -1,4 +1,9 @@
-# musiclyrics
+# Music Lyrics 
+
+Used Bloc Patterns
+
+# Preview
+https://user-images.githubusercontent.com/70213104/141117731-6066fcb6-3de3-4cd0-aa0f-795951358168.mp4
 
 A new Flutter project.
 
