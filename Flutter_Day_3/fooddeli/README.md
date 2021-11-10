@@ -1,6 +1,10 @@
 # Food Court UI
 
-A new Flutter project.
+A Food Court UI
+
+# Preview
+
+https://user-images.githubusercontent.com/70213104/141114005-c07690d1-9fba-4775-b606-64e4cef3ab65.mp4
 
 ## Getting Started
 
