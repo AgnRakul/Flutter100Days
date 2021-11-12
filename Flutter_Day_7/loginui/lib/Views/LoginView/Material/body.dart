@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 import 'package:loginui/Views/LoginView/Material/background.dart';
 import 'package:loginui/Views/SignUpView/signup_view.dart';
 import 'package:loginui/Widgets/existing_account.dart';
 import 'package:loginui/Widgets/input_field.dart';
 import 'package:loginui/Widgets/login_button.dart';
 import 'package:loginui/Widgets/password_field.dart';
+import 'package:lottie/lottie.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -25,8 +26,8 @@ class Body extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.03),
-            SvgPicture.asset(
-              "assets/svg/login2.svg",
+            Lottie.asset(
+              "assets/lottie/71230-sign-in-green.json",
               height: size.height * 0.35,
             ),
             SizedBox(height: size.height * 0.03),

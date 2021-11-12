@@ -1,7 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 import 'package:loginui/Views/LoginView/login_view.dart';
 import 'package:loginui/Views/SignUpView/Material/background.dart';
 import 'package:loginui/Views/SignUpView/Material/divider.dart';
@@ -11,6 +11,7 @@ import 'package:loginui/Widgets/input_field.dart';
 import 'package:loginui/Widgets/login_button.dart';
 import 'package:loginui/Widgets/password_field.dart';
 import 'package:loginui/Widgets/username.dart';
+import 'package:lottie/lottie.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -26,9 +27,9 @@ class Body extends StatelessWidget {
                 "SIGNUP FOR NEW ACCOUNT",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
               ),
-              SizedBox(height: size.height * 0.03),
-              SvgPicture.asset(
-                "assets/svg/signUp.svg",
+              SizedBox(height: size.height * 0.01),
+              Lottie.asset(
+                "assets/lottie/53395-SignUp.json",
                 height: size.height * 0.35,
               ),
               UserName(
