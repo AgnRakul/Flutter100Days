@@ -3,8 +3,8 @@
 
  A Simple Chat UI Designed 
 
-# Preview
-    Soon
+# Preview   
+https://user-images.githubusercontent.com/70213104/141461762-c6f6c2cc-1f12-4639-8acd-db2893f0832b.mp4
 
 ## Getting Started
 
