@@ -6,7 +6,7 @@ import '../models/item_model.dart';
 
 class MusicApiProvider {
   Client client = Client();
-  final _apiKey = '6fd645f00240206f9c14dea1188c474b';
+  final _apiKey = 'Enter Your API';
 
   Future<ItemModel> fetchMusicList() async {
     final response = await client.get(Uri.parse(
