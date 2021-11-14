@@ -8,7 +8,7 @@ import 'package:http/http.dart' show Client;
 class CryptoApiProvider {
   Client client = Client();
   final _apiKey =
-      'c73f7c0fd4b81ad17f3b63cafbc9626b1e4040c5995c525570eeb6046f193c56';
+      'Enter Your Api';
 
   Future<CryptoData> getCryptoList() async {
     final response = await client.get(
